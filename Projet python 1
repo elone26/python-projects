@@ -10,10 +10,20 @@ if choix == "1":
     vd = va/ (1 + ( pourcentage / 100))
     print("Voici ta valeur de départ :" , round(vd , 2 ))
     print("J'espère que l'on a été utile à toi")
-else choix == "2":
+elif choix == "2":
     print("Très bien, nous allons calculer ta valeur d'arrivée !")
     vd = float(input("Entre ta valeur de départ : "))
     pourcentage = float(input("Entre le pourcentage : "))
     va = vd * (1 + ( pourcentage/100))
-    print("Ta valeur d'arrivé est :", round(vd , 2))
+    print("Ta valeur d'arrivé est :", round(va , 2))
     print("J'espère que tu peux maintenant terminer ton exo : la prochaine fois n'oublie pas ta calculette !")
+elif choix== "3":
+    print("Très bien, nous allons calculer le pourcentage !")
+    vd = float(input("Entre ta valeur de départ :"))
+    va = float(input("Entre ta valeur d'arrivée :"))
+    pourcentage = (va/vd) - 1
+    print("Ton pourcentage est, roulement de tembours,","c'est :" , round(pourcentage , 2))
+    print("J'espère que tu as aimé mon programme et que tu reviendras très prochainement !")
+    print("Merci")
+else: 
+    print("Je crois que tu t'es trompé de numéro -_- !")
