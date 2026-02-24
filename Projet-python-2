@@ -1,0 +1,73 @@
+print("Bienvenue sur le calendrier de la chance, choisis une lettre et un évènement incroyable se passera pour toi !")
+reponse = input("Entre une lettre de l'alphabet : ")
+if reponse == "a":
+    print("Toi tu vas passer une bonne journée demain : tu vas te faire de nouveaux amis et tu vas bien te marrer ! Bonne chance -_-")
+elif reponse == "b":
+    print("Il faut arrêter de mal parler : si tu règles cela, tu seras le mec frais de ta ville !")
+elif reponse == "c":
+    print("Arrête de casser la tête aux gens et à les supplier : laisse les tranquilles et tu seras vu comme une bonne personne ! ")
+elif reponse == "d":
+    print("Juste tais-toi.")
+elif reponse == "e":
+    print("Toi, tu vas réussir, si tu choisis E et que le prénom de l'homme le plus riche du monde commence par E, alors tu seras riche aussi -_-")
+elif reponse == "f":
+    print("T'en penses quoi du réchauffement climatique ? NAN, sérieux, arrête avec ça les gens te prennent pour un ouf")
+elif reponse == "g":
+    print("Les gabriels c'est les meilleurs donc toi aussi si tu as chosis cette lettre. Petite anecdote : j'ai plusieurs amis Gabriels et un cousin aussi !")
+elif reponse == "h":
+    print("Réorgansie ta vie et deviens le meilleur -_-")
+elif reponse == "i":
+    print("Si ta meilleur ville c'est New York, t mon gars et donc je t'aime bien -_-")
+elif reponse == "j":
+    print("Arrête les meufs, ça te fais perdre ton temps : deviens riche et ensuite fais plaisir à ta meuf : elle ne veut pas une glace mais le meilleur palace de St-Tropez !")
+elif reponse == "k":
+    print("T'en penses quoi des universités : si tu veux faire MIT, on a les mêmes ambitions")
+elif reponse == "l":
+    print("Le confort, c'est le plus important ! Surtout quand tu dev donc plus de sodas, que de l'eau -_-")
+elif reponse == "m":
+    print("C'est trop bon le chocolat, viens on crée notre usine futuriste -_-")
+elif reponse == "n":
+    print("T'en penses quoi tu futur, tu veux qu'on soit les créateurs du futur ?")
+elif reponse == "o":
+    print("La religion a une part centrale dans ma vie, je ne comprends pas les athés car on ne peut pas être nées en un claquement de doigts")
+elif reponse == "p":
+    print("Le nutella m'a porter compagnie toute ma jeunesse mais c'est fini -_-")
+elif reponse == "q":
+    print("Vous vous rappelez de 67 en 2026 les gars : meilleur ref !")
+elif reponse == "r":
+    print("Je n'aime pas le caramel : c'est chiant, ça colle de partout !!")
+elif reponse == "s":
+    print("Si la bouf prend une part importante de ta vie, t un bon !")
+elif reponse == "m":
+    print("Le for suuuure de Emmanuel Macron le con!")
+elif reponse == "n":
+    print("Il faut arrêter de se moquer des gens, ce n'est pas bien")
+elif reponse == "o":
+    print("Est ce que tu aimes le code : le python c'est grave sympa, un peu compliqué mais je kiffe dev ! Bonne journée !")
+elif reponse == "p":
+    print("Vous foutez quoi de votre vie, soyez les créateurs du futur ! ( en mode motivation et pas obligation) ")
+elif reponse == "q":
+    print("Combien de lettres dans l'alphabet française ? Je ne me rappelle plus -_-")
+elif reponse == "r":
+    print("Si tu as choisis cette lettre, ne choisis pas les premières lettres car c'est les pires !")
+elif reponse == "s":
+    print("J'ai kiffé des gens mais en réalité je ne les kiffais pas trop : c'est chelou. Connais tu ce sentiment ?")
+elif reponse == "t":
+    print("Ne casses pas la tête : T CHIANT ")
+elif reponse == "u":
+    print("Devine mon nom de famille et gagne 1M")
+elif reponse == "v":
+    print("Salut Elone, je suis toi du passé, j'espère que tu as réussi tout ce que tu voulais dans ta vie grâce à Hachem")
+elif reponse == "w":
+    print("Je dois être un maître du python car je dois créer des robots !")
+elif reponse == "x":
+    print("C'est fou comment l'éducation française est axée sur le passé et pas sur le futur ! C'est ce qui les fait raté -_-")
+elif reponse == "y":
+    print("Ça se voit que tu aimes dormir mais lève toi et deviens meilleur en mode KAIZEN inox")
+elif reponse == "z":
+    print("Bonne chance car tu as pris la lettre la mois bonne : z c'est la fin comme la fin du monde mais comme on dit, après le mal, il y a le bien et un nouveau monde s'ouvrira à nous ---")
+else:
+    print("Retourne en maternelle si tu ne connais pas les lettres de l'alphabet.")
+    
+    
+    
