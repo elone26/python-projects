@@ -1,0 +1,42 @@
+print("Salut, bienvenue sur mon code qui fait les formules des transformations chimiques et des moles en physique -_-")
+print("1. Le grand N")
+print("2. Le petit n")
+print("3. La masse de l'échantillon grâce au Cm et au Volume")
+reponse = input("Que veux-tu calculer (réponds par 1,2,3) : ")
+if reponse == "3":
+    print("Si tu as déjà la masse de l'échantillon, c'est que tu t'es trompé et tu devras choisir l'option 1 ou 2")
+    cm = float(input("Quel est le cm : "))
+    V = float(input("Quel est le V : "))
+    m = cm * V 
+    print("m échantillon vaut :", m ,"." )
+    print("Calcul maintenant grand N")
+    choix = input("Veux-tu maintenant calculer grand N (oui/non) : ")
+    if choix == "oui":
+        reponse = "1"
+        reponseb = m
+    else: 
+        print("Pas de soucis, merci d'avoir utilisé mon programme -_-")
+    
+if reponse == "1":
+    try:
+        reponseb
+    except NameError:
+        reponseb = float(input("Masse de l'échantillon : "))
+    reponsec = float(input("Nombre de nucléons dans la molécule en particulier : "))
+    calculN = reponseb/(reponsec * (1.67 * 10 ** -27))
+    print(f"Le résultat est : {calculN:.2e}")
+    reponsen = input("Veux-tu calculer petit n maintenant (oui/non) : ")
+    if reponsen == "oui":
+        reponse = "2"
+        reponseN = calculN
+    
+if reponse == "2": 
+        print("As-tu calculé le grand N : si oui parfait sinon ce n'est pas grave, reload et choisis l'option 1 d'abord avant la deux -_-")
+        try:
+            reponseN
+        except NameError:
+            reponseN = float(input("Quel est la valeur de N : "))
+        n = 6.022 * 10 ** 23
+        Calculn = reponseN/n
+        print(f'Petit n vaut {Calculn:.2e}.')
+        print("Merci d'avoir utilisé mon programme -_-")
